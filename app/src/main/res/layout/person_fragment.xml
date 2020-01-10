@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="6dp"
+        android:layout_margin="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cc">
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/sliderLayout"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/btnacc"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbg2"
+        android:text="Get All Access"
+        android:layout_below="@+id/cc"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorPrimary"
+        />
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbg2"
+        android:text="Sign in"
+        android:layout_below="@+id/btnacc"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorPrimary"
+        />
+</RelativeLayout>
